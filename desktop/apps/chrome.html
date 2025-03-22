@@ -9,14 +9,15 @@
             background-color: cornsilk;
             font-family: sans-serif;
             margin: 0;
-            padding: 0;
+           
         }
         .center {
             position: absolute;
 left: 50%;
-top: 50%;
+top: 49.35%;
 transform: translate(-50%, -50%);
 width: -50%;
+height: 79%;
         }
         h1 {
             font-family: sans-serif;
@@ -87,12 +88,11 @@ width: -50%;
     border: transparent;
     border-color: transparent;
     position: absolute;
-    top: 33%;
-    left: 45%;
-    transform: translate(-50%, -50%);
+    top: 9%;
+    left: -0%;
     padding: 100px;
     background-color: transparent;
-    width: 50%;
+    width: 100%;
     height: 40%;
     font-family: sans-serif;
     align-items: left;
@@ -107,7 +107,7 @@ width: -50%;
     border-color: transparent;
 }
 iframe {
-    width: 100%;
+    width: 60%;
     height: 150%;
     padding: 100px;
 }
@@ -120,7 +120,6 @@ iframe {
             <img onclick="open1()" src="./assets/appicons/light/folder_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="File Browser">
             <img onclick="open2()" src="./assets/appicons/dark/captive_portal_38dp_666666_FILL0_wght400_GRAD0_opsz40.svg" alt="Internet Browser">
             <img onclick="open3()" src="./assets/appicons/light/settings_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="Settings">
-            <button onclick="javascript:window.open('./browser.html', target='_self')">Back</button>
             <script>            function open1() {
                 window.open("files.html", target='_self')
             }
@@ -142,9 +141,7 @@ iframe {
         </ul>
     </div>
     </div>
-    <div class="whitebox">
-        <iframe src="https://clear-loraine-techkidsgames-b0c551d2.koyeb.app/" frameborder="0"></iframe>
-    </div>
+        <iframe class="center" src="https://clear-loraine-techkidsgames-b0c551d2.koyeb.app/" frameborder="0"></iframe>
 </body>
 <script>
     function updateClock() {
